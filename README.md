@@ -87,9 +87,7 @@ for (size_t i1 = 0; i1 < m ; i1++)
     ```
 
 * Results
-    
-
-```
+    ```
     << benchmark: matmult >>
     dim: 2 elapsed time: 0.000018 [ms]
     dim: 4 elapsed time: 0.000051 [ms]
@@ -127,3 +125,27 @@ for (size_t i1 = 0; i1 < m ; i1++)
     dim: 128 elapsed time: 0.128563 [ms]
     dim: 256 elapsed time: 1.081561 [ms]
     ```
+
+## Environments
+```
+            .-/+oossssoo+/-.               kyungpyo@gp76 
+        `:+ssssssssssssssssss+:`           ------------- 
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 20.04.4 LTS x86_64 
+    .ossssssssssssssssssdMMMNysssso.       Host: GP76 Leopard 11UH REV:1.0 
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 5.11.0-27-generic 
+  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 13 hours, 41 mins 
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 2199 (dpkg), 10 (snap) 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: bash 5.0.17 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 1920x1080, 2560x1440 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   DE: GNOME 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   WM Theme: Adwaita 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Theme: Orchis-Dark [GTK2/3] 
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Icons: Tela [GTK2/3] 
+  +sssssssssdmydMMMMMMMMddddyssssssss+     Terminal: gnome-terminal 
+   /ssssssssssshdmNNNNmyNMMMMhssssss/      CPU: 11th Gen Intel i7-11800H (16) @ 
+    .ossssssssssssssssssdMMMNysssso.       GPU: Intel Device 9a60 
+      -+sssssssssssssssssyyyssss+-         GPU: NVIDIA 01:00.0 NVIDIA Corporati 
+        `:+ssssssssssssssssss+:`           Memory: 9682MiB / 64023MiB 
+            .-/+oossssoo+/-.
+```
